@@ -1,0 +1,5 @@
+Info de Francisco:
+
+Para las imágenes multiespectrales tenemos que usar dataloder custom. En nuestro caso tenemos que hacer patches alrededor del pixel o segmento que queramos procesar. Te paso dos códigos de cnn, uno que coje un patch para cada uno de los pixeles de la imagen y otro que coge patches uno por superpixel. El que funciona a nivel de pixel solo necesita el dataset y el GT. El que trabaja con superpixeles necesita tambien la segmentacion y la ubicación de los centros de los segmentos que está en un programa C (en python tardaba mucho). Uno vez clasifificados los patches de los centros de los segmentos, la clase obtenida se extiende a todos los píxeles del segmento.  
+
+El dataloder es HyperDataset(Dataset) que como ves, toma cmo entrada el índice de la muestra y devuelve un patch y la clase asignada.  El resto del código es para ver cuantas muestras hay de cada clase y seleccionar un porcentaje de training (select_training_samples), recortar un pach centrado en el pixel (select_patch), etc.,
