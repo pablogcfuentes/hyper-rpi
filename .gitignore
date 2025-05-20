@@ -27,3 +27,6 @@ structure.txt
 
 # Visual Studio Code
 .vscode/
+
+# Caches
+*adaround_cache*
