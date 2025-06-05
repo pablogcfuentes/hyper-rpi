@@ -1,0 +1,81 @@
+TIMES AND ACCURACIES FOR model_cnn1 with different types of optimizations
+
+
+	model_ResBaGAN_discriminator (BASE PYTORCH MODEL, LAPTOP INFERENCE):
+
+ (Inference on CPU Ryzen 7 5800H 3.2GHz with 16 GB of RAM)
+
+Metrics:
+
+
+
+
+	model_ResBaGAN_discriminator (BASE PYTORCH MODEL, RASPBERRY PI INFERENCE):
+
+ (Inference on CPU Broadcom BCM2712 2.4GHz with 8 GB of RAM)
+
+Metrics:
+
+
+
+
+	model_ResBaGAN_discriminator_o-100_c0 (OPTIMIZATION LEVEL -100, COMPRESSION LEVEL 0):
+
+Prediction time:
+
+Metrics:
+
+
+
+
+	model_ResBaGAN_discriminator_o0_c0 (OPTIMIZATION LEVEL 0, COMPRESSION LEVEL 0):
+
+Prediction time:
+
+Metrics:
+
+
+
+
+	model_ResBaGAN_discriminator_o1_c0 (OPTIMIZATION LEVEL 1, COMPRESSION LEVEL 0):
+
+Prediction time:
+
+Metrics:
+
+
+
+
+	model_ResBaGAN_discriminator_o2_c0 (OPTIMIZATION LEVEL 2, COMPRESSION LEVEL 0):
+
+Prediction time:
+
+Metrics:
+
+
+
+
+	model_ResBaGAN_discriminator_o4_c0 (OPTIMIZATION LEVEL 4, COMPRESSION LEVEL 0):
+
+Prediction time:
+
+Metrics:
+
+
+
+
+	model_ResBaGAN_discriminator_o4_c1 (OPTIMIZATION LEVEL 4, COMPRESSION LEVEL 1):
+
+Prediction time:
+
+Metrics:
+
+
+
+
+
+
+
+
+
+
