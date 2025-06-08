@@ -81,20 +81,42 @@ Metrics:
 
 	model_ResBaGAN_discriminator_o2_c0 (OPTIMIZATION LEVEL 2, COMPRESSION LEVEL 0):
 
-Prediction time:
+Prediction time: 972.9149 seconds
 
 Metrics:
 
-
+  Class 01: 98.79
+  Class 02: 53.66
+  Class 03: 0.02
+  Class 04: 38.67
+  Class 05: 63.85
+  Class 06: 84.67
+  Class 07: 97.82
+  Class 08: 58.89
+  Class 09: 95.96
+  Class 10: 94.45
+* Accuracy (pixels) OA=82.18, AA=68.68
+  total: 6067179 correct: 4985962
 
 
 	model_ResBaGAN_discriminator_o4_c0 (OPTIMIZATION LEVEL 4, COMPRESSION LEVEL 0):
 
-Prediction time:
+Prediction time: 999.5060 seconds
 
 Metrics:
 
-
+  Class 01: 98.74
+  Class 02: 52.79
+  Class 03: 0.02
+  Class 04: 33.99
+  Class 05: 62.90
+  Class 06: 87.04
+  Class 07: 97.63
+  Class 08: 58.39
+  Class 09: 95.33
+  Class 10: 94.54
+* Accuracy (pixels) OA=81.90, AA=68.14
+  total: 6067179 correct: 4969084
 
 
 	model_ResBaGAN_discriminator_o4_c1 (OPTIMIZATION LEVEL 4, COMPRESSION LEVEL 1):
