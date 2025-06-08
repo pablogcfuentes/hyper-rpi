@@ -25,6 +25,9 @@ structure.txt
 *.pgm
 *.svg
 
+# Predictions
+*.npy
+
 # Visual Studio Code
 .vscode/
 

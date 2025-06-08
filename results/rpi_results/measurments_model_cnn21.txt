@@ -3,42 +3,20 @@ TIMES AND ACCURACIES FOR model_cnn1 with different types of optimizations
 
 	model_cnn21 (BASE PYTORCH MODEL, LAPTOP INFERENCE):
 
-Prediction time: 503.0986 seconds (Inference on CPU Ryzen 7 5800H 3.2GHz with 16 GB of RAM)
+Prediction time:  (Inference on CPU Ryzen 7 5800H 3.2GHz with 16 GB of RAM)
 
 Metrics:
 
-  Class 01: 97.94
-  Class 02: 91.47
-  Class 03: 60.19
-  Class 04: 98.62
-  Class 05: 79.71
-  Class 06: 89.18
-  Class 07: 97.74
-  Class 08: 85.81
-  Class 09: 96.02
-  Class 10: 62.18
-* Accuracy (pixels) OA=87.95, AA=85.88
-  total: 6067179 correct: 5335822
+
 
 
 	model_cnn21 (BASE PYTORCH MODEL, RASPBERRY PI INFERENCE):
 
-Prediction time: 3298.2922 seconds (Inference on CPU Broadcom BCM2712 2.4GHz with 8 GB of RAM)
+Prediction time:  (Inference on CPU Broadcom BCM2712 2.4GHz with 8 GB of RAM)
 
 Metrics:
 
-  Class 01: 97.94
-  Class 02: 91.47
-  Class 03: 60.19
-  Class 04: 98.62
-  Class 05: 79.71
-  Class 06: 89.18
-  Class 07: 97.74
-  Class 08: 85.81
-  Class 09: 96.02
-  Class 10: 62.18
-* Accuracy (pixels) OA=87.95, AA=85.88
-  total: 6067179 correct: 5335822
+
 
 
 	model_cnn21_o-100_c0 (OPTIMIZATION LEVEL -100, COMPRESSION LEVEL 0):
