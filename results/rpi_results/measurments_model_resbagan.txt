@@ -1,22 +1,84 @@
-TIMES AND ACCURACIES FOR model_cnn1 with different types of optimizations
+TIMES AND ACCURACIES FOR model_ResBaGAN_discriminator with different types of optimizations
 
 
 	model_ResBaGAN_discriminator (BASE PYTORCH MODEL, LAPTOP INFERENCE):
 
- (Inference on CPU Ryzen 7 5800H 3.2GHz with 16 GB of RAM)
+Prediction time: 1518.8807 seconds (Inference on CPU Ryzen 7 5800H 3.2GHz with 16 GB of RAM)
 
 Metrics:
 
-
+  Class 01: 99.01
+  Class 02: 91.91
+  Class 03: 87.23
+  Class 04: 97.64
+  Class 05: 91.87
+  Class 06: 99.20
+  Class 07: 96.95
+  Class 08: 98.35
+  Class 09: 99.81
+  Class 10: 96.23
+* Accuracy (pixels) OA=97.17, AA=95.82
+  total: 6067179 correct: 5895523
 
 
 	model_ResBaGAN_discriminator (BASE PYTORCH MODEL, RASPBERRY PI INFERENCE):
 
- (Inference on CPU Broadcom BCM2712 2.4GHz with 8 GB of RAM)
+Prediction time: 11259.3677 seconds (Inference on CPU Broadcom BCM2712 2.4GHz with 8 GB of RAM)
 
 Metrics:
 
+  Class 01: 99.01
+  Class 02: 91.91
+  Class 03: 87.23
+  Class 04: 97.64
+  Class 05: 91.87
+  Class 06: 99.20
+  Class 07: 96.95
+  Class 08: 98.35
+  Class 09: 99.81
+  Class 10: 96.23
+* Accuracy (pixels) OA=97.17, AA=95.82
+  total: 6067179 correct: 5895523
 
+
+	model_ResBaGAN_discriminator (ONNX TRANSLATED MODEL, LAPTOP INFERENCE):
+
+Prediction time: 1844.6441 seconds (Inference on CPU Ryzen 7 5800H 3.2GHz with 16 GB of RAM)
+
+Metrics:
+
+  Class 01: 99.01
+  Class 02: 91.91
+  Class 03: 87.23
+  Class 04: 97.64
+  Class 05: 91.87
+  Class 06: 99.20
+  Class 07: 96.95
+  Class 08: 98.35
+  Class 09: 99.81
+  Class 10: 96.23
+* Accuracy (pixels) OA=97.17, AA=95.82
+  total: 6067179 correct: 5895523
+
+
+	model_ResBaGAN_discriminator (ONNX TRANSLATED MODEL, RASPBERRY PI INFERENCE):
+
+Prediction time: 8100.6450 seconds (Inference on CPU Broadcom BCM2712 2.4GHz with 8 GB of RAM)
+
+Metrics:
+
+  Class 01: 99.01
+  Class 02: 91.91
+  Class 03: 87.23
+  Class 04: 97.64
+  Class 05: 91.87
+  Class 06: 99.20
+  Class 07: 96.95
+  Class 08: 98.35
+  Class 09: 99.81
+  Class 10: 96.23
+* Accuracy (pixels) OA=97.17, AA=95.82
+  total: 6067179 correct: 5895523
 
 
 	model_ResBaGAN_discriminator_o-100_c0 (OPTIMIZATION LEVEL -100, COMPRESSION LEVEL 0):
@@ -121,12 +183,62 @@ Metrics:
 
 	model_ResBaGAN_discriminator_o4_c1 (OPTIMIZATION LEVEL 4, COMPRESSION LEVEL 1):
 
-Prediction time:
+Prediction time: 961.5865 seconds
 
 Metrics:
 
+  Class 01: 98.71
+  Class 02: 55.55
+  Class 03: 0.03
+  Class 04: 44.90
+  Class 05: 62.09
+  Class 06: 87.85
+  Class 07: 97.62
+  Class 08: 59.07
+  Class 09: 95.82
+  Class 10: 94.48
+* Accuracy (pixels) OA=82.23, AA=69.61
+  total: 6067179 correct: 4989175
 
 
+	model_ResBaGAN_discriminator_o4_c2 (OPTIMIZATION LEVEL 4, COMPRESSION LEVEL 2):
+
+Prediction time: 986.0043 seconds
+
+Metrics:
+
+  Class 01: 98.71
+  Class 02: 51.48
+  Class 03: 0.03
+  Class 04: 43.32
+  Class 05: 62.96
+  Class 06: 73.62
+  Class 07: 97.70
+  Class 08: 58.50
+  Class 09: 95.34
+  Class 10: 94.69
+* Accuracy (pixels) OA=81.85, AA=67.64
+  total: 6067179 correct: 4966221
+
+
+	model_ResBaGAN_discriminator_o4_c3 (OPTIMIZATION LEVEL 4, COMPRESSION LEVEL 3):
+
+Prediction time: 968.7084 seconds
+
+Metrics:
+
+  Class 01: 98.74
+  Class 02: 51.43
+  Class 03: 0.00
+  Class 04: 39.10
+  Class 05: 61.67
+  Class 06: 87.01
+  Class 07: 97.53
+  Class 08: 58.45
+  Class 09: 95.24
+  Class 10: 94.48
+* Accuracy (pixels) OA=81.85, AA=68.36
+  total: 6067179 correct: 4966035
 
 
 
