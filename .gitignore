@@ -17,7 +17,6 @@ venv.bak/
 
 # General logs and files
 *.log
-structure.txt
 
 # Image formats
 *.raw
