@@ -1,0 +1,16 @@
+name: hyper_env
+channels:
+  - conda-forge
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - nb_conda
+  - pip
+  - pytorch
+  - torchaudio
+  - torchvision
+  - matplotlib
+  - numpy
+  - scikit-learn
+  - onnx
+  - onnxruntime

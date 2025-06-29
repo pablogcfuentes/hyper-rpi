@@ -1,0 +1,12 @@
+name: hailo_gpu_env
+channels:
+  - conda-forge
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - nb_conda
+  - pip
+  - python=3.8
+  - cudatoolkit=11.8
+  - cudnn==8.9.7.29
+prefix: /home/pablo/anaconda3/envs/hailo_gpu_env
