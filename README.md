@@ -1,11 +1,11 @@
 # hyper-rpi
-## Hyperespectral Image Classification on Raspberry Pi 5 with Hailo 8L AI Accelerator
+## Multispectral Image Classification on Raspberry Pi 5 with Hailo 8L AI Accelerator
 
-This project aims to adapt hyperespectral image classification deep learning models to be able to run on a Raspberry Pi 5 with the Hailo 8L AI Accelerator module. This system allows inference on edge devices with low power consumption and reasonable runtimes, while maintainig acceptable accuracy. To achieve that goal, a translation and compilation pipeline is proposed.
+This project aims to adapt multispectral image classification deep learning models to be able to run on a Raspberry Pi 5 with the Hailo 8L AI Accelerator module. This system allows inference on edge devices with low power consumption and reasonable runtimes, while maintainig acceptable accuracy. To achieve that goal, a translation and compilation pipeline is proposed.
 
 ## Project Features
 
-- **Adaptation to spcecific hardware**: The project adapts hyperespectral image classification deep learning models to run on Raspbery Pi 5, using the Hailo 8L to optimize inference performance.
+- **Adaptation to spcecific hardware**: The project adapts multispectral image classification deep learning models to run on Raspbery Pi 5, using the Hailo 8L to optimize inference performance.
 
 - **Optimized processing pipeline**: A processing pipeline is designed to maximize performance on the Raspberry Pi 5, ensuring low execution times, efficient resource usage and acceptable accuracy. It also provides support to different optimization and compression levels.
 
